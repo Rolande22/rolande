@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Roll-Makeup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Light gray background */
+        }
+
+        #header {
+            background-color: #ffcccc; /* Light pink */
+            color: #333; /* Dark gray text color */
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .logo-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            margin-top: 5px; /* Adjusted margin */
+            margin-left: 20px; /* Adjusted margin */
+        }
+
+        #navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 20px; /* Adjusted margin */
+        }
+
+        #navigation li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        #navigation li a {
+            color: #333; /* Dark gray text color */
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #ffcccc; /* Light pink */
+            transition: background-color 0.3s ease;
+        }
+
+        #navigation li a:hover {
+            background-color: #ff9999; /* Dark pink on hover */
+        }
+
+        #navigation li.selected a {
+            background-color: #ff9999; /* Dark pink for selected */
+            color: lightgrey; /* White text color for selected */
+        }
+
+        #body {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 span {
+            border-bottom: 2px solid #ff9999; /* Dark pink underline */
+            padding-bottom: 5px;
+        }
+
+        .main-image {
+            height: auto;
+            width: 30%; /* Adjust the size as needed */
+            max-width: 100%; /* Ensure image doesn't exceed its container */
+            border-radius: 10px;
+            border: 3px solid #000; /* Black border */
+            margin-bottom: 20px;
+        }
+
+        .article {
+            margin-top: 20px;
+            background-color: lightgrey;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+            overflow: hidden;
+        }
+
+        .article h3 {
+            color: #333; /* Change pink to black */
+        }
+
+        .mission-vision-values {
+            text-align: left;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .mission-vision-values h2 {
+            color: #333; /* Change pink to black */
+        }
+
+        .mission-vision-values p {
+            font-size: 16px;
+            background-color: lightgrey;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        #footer {
+            background-color: #ffcccc; /* Light pink */
+            color: #333; /* Dark gray text color */
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        #footer ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #footer ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        #footer ul li a {
+            color: #333; /* Dark gray text color */
+            text-decoration: none;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        #instagram {
+            background-image: url('instagram-icon.png'); /* Replace with your Instagram icon */
+            background-color: #333; /* Dark gray */
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        #youtube {
+            background-image: url('youtube-icon.png'); /* Replace with your YouTube icon */
+            background-color: #333; /* Dark gray */
+            border-radius: 50%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="index.html" class="logo">
+            <img src="logo.jfif" alt="Logo" class="logo-image">
+        </a>
+        
+        <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li class="selected"><a href="About us.html">About</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact us.html">Contact</a></li>
+        </ul>
+    </div>
+    <div id="body">
+        <h1><span>About Roll Makeup</span></h1>
+        <img src="Screenshot_20240303_150249_Instagram.jpg" alt="Roll-Makeup" class="main-image">
+        <div class="article">
+            <h3>We Have Makeup Tips for Everyone</h3>
+            <p>
+                I am Marie Rolande Ikuzwe, an aspiring makeup artist inspired by my early experiences watching my sister do her makeup. I bring a blend of creativity and dedication to my passion for makeup artistry. With a commitment to enhancing natural beauty and boosting confidence, I strive to provide high-quality makeup services tailored to each client's unique style and preferences.
+            </p>
+        </div>
+        <div class="mission-vision-values">
+            <h2>Mission, Vision, and Values</h2>
+            <p><strong>Mission:</strong> Our mission is to provide high-quality makeup services to our clients, enhancing their natural beauty and boosting their confidence.</p>
+            <p><strong>Vision:</strong> Our vision is to become a leading makeup brand known for its creativity, professionalism, and dedication to customer satisfaction.</p>
+            <p><strong>Values:</strong> We value creativity, professionalism, integrity, and customer satisfaction in everything we do.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div>
+            <p>&copy; 2023 by Mustacchio. All rights reserved.</p>
+            
+        </div>
+    </div>
+</body>
+</html>

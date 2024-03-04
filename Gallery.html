@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+
+        #navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        #navigation li {
+            margin: 0 10px;
+        }
+
+        #navigation li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #navigation li a:hover {
+            background-color: #0056b3; /* Darker Blue */
+        }
+
+        #navigation li.selected a {
+            background-color: #0056b3; /* Darker Blue */
+        }
+
+        #body {
+            text-align: center;
+        }
+
+        h1 span {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        #footer {
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #footer ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #footer ul li {
+            margin: 0 10px;
+        }
+
+        #footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #footer .social-icon {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        #youtube {
+            background-image: url('youtube-icon.png');
+        }
+
+        #instagram {
+            background-image: url('instagram-icon.png');
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="index.html" class="logo">
+            <img src="logo.jfif" alt="Logo" class="logo-image">
+        </a>
+        <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About us.html">About</a></li>
+            <li class="selected"><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact us.html">Contact</a></li>
+        </ul>
+    </div>
+    <div id="body">
+        <h1><span>Gallery</span></h1>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="Screenshot_20240224_124016_Photos.jpg" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="Screenshot (95).png" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="Screenshot (97).png" alt="Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="Screenshot (94).png" alt="Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="Screenshot (93).png" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="Screenshot (96).png" alt="Image 6">
+            </div>
+            <div class="gallery-item">
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/ug_dUsh1Y9Q?si=tGP-0mjlF0wH8I5X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div>
+            <p>&copy; 2023 by Roll Makeup. All rights reserved.</p>
+            <ul>
+                <li><a href="https://www.youtube.com/" id="youtube" class="social-icon"></a></li>
+                <li><a href="https://www.instagram.com/" id="instagram" class="social-icon"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+s
